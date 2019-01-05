@@ -2,139 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }} | {{site.name}}</title>
-    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-    <!-- Favicons -->
-    <link rel="shortcut icon" href="favicon.png">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
-    <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700&amp;subset=cyrillic,greek" rel="stylesheet">
-    <link href="{{ site.baseurl }}css/style.css" rel="stylesheet" media="screen">
+    {% include head.html %}
 </head>
 
 <body>
-    <!-- Loader -->
-    <div class="loader">
-        <div class="page-lines">
-            <div class="container">
-                <div class="col-line col-xs-4">
-                    <div class="line"></div>
-                </div>
-                <div class="col-line col-xs-4">
-                    <div class="line"></div>
-                </div>
-                <div class="col-line col-xs-4">
-                    <div class="line"></div>
-                    <div class="line"></div>
-                </div>
-            </div>
-        </div>
-        <div class="loader-brand">
-            <div class="sk-folding-cube">
-                <div class="sk-cube1 sk-cube"></div>
-                <div class="sk-cube2 sk-cube"></div>
-                <div class="sk-cube4 sk-cube"></div>
-                <div class="sk-cube3 sk-cube"></div>
-            </div>
-        </div>
-    </div>
-    <!-- Header -->
-    <header id="top" class="header-home">
-        <div class="brand-panel">
-            <a href="#top" class="brand js-target-scroll">
-                <img src="{{ site.baserurl }} / {{site.logo}} " alt="{{site.name}}" class="img-responsive" alt="" width="200">
-            </a>
-            <div class="brand-name">{{site.name}}</div>
-            <div class="slide-number">
-                <span class="current-number text-primary">0<span class="count">1</span></span>
-                <sup><span class="delimiter">/</span> 0<span class="total-count"></span></sup>
-            </div>
-        </div>
-        <div class="header-phone">{{site.phone}}</div>
-        <div class="vertical-panel"></div>
-        <div class="vertical-panel-content">
-            <div class="vertical-panel-info">
-                <div class="vertical-panel-title">{{site.title}}</div>
-                <div class="line"></div>
-            </div>
-            <ul class="social-list">
-                <li><a href="" class="fa fa-instagram"></a></li>
-                <li><a href="" class="fa fa-twitter"></a></li>
-                <li><a href="" class="fa fa-behance"></a></li>
-                <li><a href="" class="fa fa-facebook"></a></li>
-            </ul>
-        </div>
-        <!-- Navigation Desktop -->
-        <nav class="navbar-desctop visible-md visible-lg">
-            <div class="container">
-                <a href="#top" class="brand js-target-scroll">
-                    <img src="{{site.logo-small}}" class="img-responsive" alt="" width="130">
-                </a>
-                <ul class="navbar-desctop-menu">
-                    <li class="active">
-                        <a href="{{ site.baseurl }}/index.html">ICS</a>
-                    </li>
-                    <li>
-                        <a href="{{ site.baseurl }}/#!ourservices" class="js-target-scroll">Our services</a>
-                    </li>
-                    <li>
-                        <a href="{{ site.baseurl }}/projectslist.html">Projects</a>
-                        <ul>
-                            <li><a href="{{ site.baseurl }}/projectslist.html">Projects - List</a></li>
-                            <li><a href="{{ site.baseurl }}/project_panorama.html">Project in Panorama</a></li>
-                            <li><a href="{{ site.baseurl }}/project_sithonia.html">Project in Sithonia</a></li>
-                            <li><a href="{{ site.baseurl }}/project_nikiti.html">Project in Nikiti</a></li>
-                            <li><a href="{{ site.baseurl }}/project_paxos.html">Project in Paxos</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="{{ site.baseurl }}/contactus.html">Contact us</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <!-- Navigation Mobile -->
-        <nav class="navbar-mobile">
-            <a href="#top" class="brand js-target-scroll">
-                <img src="{{site.logo-small}}" class="img-responsive" alt="" width="200">
-            </a>
-            <!-- Navbar Collapse -->
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-mobile">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbar-mobile">
-                <ul class="navbar-nav-mobile">
-                    <li class="active">
-                        <a href="#">ICS <i class="fa fa-angle-down"></i></a>
-                    </li>
-                    <li>
-                        <a href="{{ site.baseurl }}/#!ourservices" class="js-target-scroll">Our services</a>
-                    </li>
-                    <li>
-                        <a href="#">Projects <i class="fa fa-angle-down"></i></a>
-                        <ul>
-                            <li><a href="{{ site.baseurl }}/projectslist.html">Projects - List</a></li>
-                            <li><a href="{{ site.baseurl }}/project_panorama.html">Project in Panorama</a></li>
-                            <li><a href="{{ site.baseurl }}/project_sithonia.html">Project in Sithonia</a></li>
-                            <li><a href="{{ site.baseurl }}/project_nikiti.html">Project in Nikiti</a></li>
-                            <li><a href="{{ site.baseurl }}/project_paxos.html">Project in Paxos</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="{{ site.baseurl }}/contactus.html">Contact us</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    {% include header.html%}
     <!-- Layout -->
     <div class="layout">
         <!-- Home -->
@@ -381,25 +253,7 @@
                 </div>
             </section>
  -->
-            <!-- Footer -->
-            <footer id="footer" class="footer">
-                <div class="container">
-                    <div class="row-base row">
-                        <div class="col-base text-left-md col-md-4">
-                            <!--                         <a href="#" class="brand">
-<img src="{{site.logo-small}}" class="img-responsive" alt="" width="200">
-</a> -->
-                        </div>
-                        <div class="text-center-md col-base col-md-4">
-                            Created by <a href="http://www.tiem.gr" target="_blank" class="author-link">TIEM adv</a> &
-                            <a href="https://www.twopix.gr" target="_blank" class="author-link">(2p) Twopix</a>
-                        </div>
-                        <div class="text-right-md col-base col-md-4">
-                            © Ioannidis Construction Services 2018. All Rights Reserved.
-                        </div>
-                    </div>
-                </div>
-            </footer>
+            {% include footer.html %}
             <!-- Lines -->
             <div class="page-lines">
                 <div class="container">
