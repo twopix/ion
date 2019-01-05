@@ -1,0 +1,70 @@
+baseurl: 
+
+# Site settings
+name: Ioannidis Construction Services
+description: ICS provides holistic construction services, in Greece and around the globe, and is most well-known for its work on houses in the countryside
+meta_description: "ICS (Ioannidis Construction Services) started as a family business in 1959. In 1988, George Ioannidis took over the company, a civil engineer with studies in United States of America specializing in antiseismic constructions. ICS provides holistic construction services, in Greece and around the globe, and is most well-known for its work on houses in the countryside."
+logo: 'img/logo.png'
+logo-small: 'img/logo-small.png'
+favicon: 'favicon.png'
+title: 'Construction company'
+email: 'info@iconstruction.services'
+phone: '+30 2310 866458'
+mobile: '+30 6944 524600'
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url:  http://twitter.com/
+  - title: instagramm
+    url:  https://facebook.com
+  - title:  facebook
+    url:  https://facebook.com
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 26 Leoforou Stratou str. 
+  - line: P.C. 54640, Thessaloniki, Greece
+
+
+
+# paginate: 12
+# google_analytics: 'UA-46278016-1'
+# disqus: 'demowebsite'
+# sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a6b2fe4fb197a0011c589f6&product=sticky-share-buttons"></script>'
+
+# Authors
+# authors:
+#   sal:
+#     name: Sal
+#     display_name: Sal
+#     gravatar: e56154546cf4be74e393c62d1ae9f9d4
+#     email: wowthemesnet@gmail.com
+#     web: https://www.wowthemes.net/category/jekyll-themes/
+#     twitter: https://twitter.com/wowthemesnet
+#     description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+#   john:
+#     name: John
+#     display_name: John
+#     gravatar: b1cc14991db7a456fcd761680bbc8f81
+#     email: wowthemesnet@gmail.com
+#     web: https://www.wowthemes.net/category/jekyll-themes/
+#     twitter: https://twitter.com/wowthemesnet
+#     description: "This is the author box. Write a short description of the author here. You are currently previewing Affiliates theme demo, a Jekyll template compatible with Github pages."
+
+# Plugins
+# plugins: 
+#   - jekyll-paginate
+#   - jekyll-archives
+    
+# # Archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#   layout: archive
+#   permalinks:
+#     category: '/category/:name/'
+    
+# Other
+markdown: kramdown
+highlighter: rouge
