@@ -1,0 +1,20 @@
+---
+---
+
+$font-stack:    'Source Sans Pro', sans-serif;
+$primary-color: #a69373;
+
+@import "_bootstrap";
+
+// Imports
+@import "general";
+@import "header";
+@import "main";
+@import "about";
+@import "projects";
+@import "experience";
+@import "clients";
+@import "blog";
+@import "contacts";
+@import "footer";
+@import "responsive";

@@ -1,0 +1,255 @@
+/* ------------------------------------------------------------------------------- */
+/*  8. Blog
+/* ------------------------------------------------------------------------------- */
+
+
+
+.bg-blog{
+  background: url(../img/bg/blog.jpg) 50% 0 no-repeat;
+  background-size: cover;
+}
+
+.blog{
+  position: relative;
+  margin-bottom: 3em;
+  margin-right: 1px;
+  background-color: #373737;
+  box-shadow:0 1px 15px rgba(0,0,0,0.08);
+}
+
+.blog:last-child{
+  margin-bottom: 0;
+}
+
+.blog-thumbnail{
+  position: static;
+}
+
+.blog-thumbnail-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 5px;
+  padding: 0;
+  border-radius: 0.25em 0 0 0.25em;
+  overflow: hidden;
+  background-size: cover;
+  background-position: 50% 0;
+}
+
+.blog-thumbnail-img img{
+  border-radius: 0.25em 0.25em 0 0;
+}
+
+.blog-info{
+  padding: 3.3em 3em;
+}
+
+.blog-info .blog-tags a{
+  background-color: #434343;
+}
+
+.blog-tags{
+  font-family: 'Source Sans Pro';
+  margin-top:-0.8em;
+}
+
+.blog-tags a{
+  display: inline-block;
+  font-size: 0.75em;
+  line-height: 1;
+  padding: 0.77em 1.1em 0.77em;
+  border-radius: 2em;
+  background-color: #333333;
+  text-transform: uppercase;
+  color:#6f6f6f;
+  margin-top: 0.8em;
+  margin:0.8em 0.7em 0 0;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.blog-tags a:hover{
+  background-color:$primary-color;
+  text-decoration: none;
+  color: #fff;
+}
+
+.blog-title{
+  font-family: $font-stack;
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 1.333;
+  margin: 1.8em 0 0.8em;
+}
+
+.blog-info p{
+  margin-bottom: 0;
+  color:#fff;
+}
+
+.blog-meta{
+  font-size: 0.88em;
+  color:#b4b4b4;
+  overflow: hidden;
+}
+
+.blog-meta .author{
+  color: #686868;
+  float: left;
+}
+
+.blog-meta .author a{
+  font-family: 'Source Sans Pro';
+  color:#686868;
+}
+
+.blog-meta .author a:hover{
+  text-decoration: none;
+  color:$primary-color;
+}
+
+.blog-meta .time{
+  float: right;
+  color:#686868;
+}
+
+.blog-info .blog-meta{
+  border-top:1px solid #474747;
+  margin-top: 1.7em;
+  padding-top: 1.7em;
+}
+
+.read-more{
+  display: inline-block;
+  font-family: 'Source Sans Pro';
+  font-size: 0.88em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.read-more{
+  padding-right: 2em;
+  background:url(../img/img-icon/read-more.png) right 50% no-repeat;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.read-more:hover{
+  text-decoration: none;
+  background-position: 95% 50%;
+}
+
+.blog-info .read-more{
+  margin-top: 2.8em;
+}
+
+
+
+/* 8.1 Blog Details */
+
+
+
+.blog-details{
+  margin-bottom:8.3em;
+}
+
+.col-secondary{
+  margin-top: 7.1em;
+}
+
+.post-header{
+  margin-bottom: 5em;
+}
+
+.post-header h3{
+  font-family: $font-stack;
+  font-weight: 400;
+  font-size: 2.2em;
+  line-height: 1.43;
+  margin:0 0 0 0;
+}
+
+.post-header .blog-meta{
+  margin-top: 2.45em;
+}
+
+.post-thumbnail{
+  margin-bottom: 2.5em;
+}
+
+.post-thumbnail img{
+  width: 100%;
+  border-radius: 0.25em;
+}
+
+.post .blog-tags{
+  margin-top: 5.4em;
+}
+
+
+
+/* 8.2 Widgets */
+
+
+
+.widget{
+  margin-bottom: 3.65em;
+}
+
+.widget-title{
+  font-family: 'Source Sans Pro';
+  font-weight: 200;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 2.25em 0;
+}
+
+
+
+/* 8.3 Widget Recent Post */
+
+
+
+.recent-post{
+  margin-bottom: 1.7em;
+  overflow: hidden;
+}
+
+.recent-post:last-child{
+  margin-bottom: 0;
+}
+
+.recent-post-thumbnail{
+  width: 9.32em;
+  float: left;
+}
+
+.recent-post-thumbnail img{
+  border-radius: 0.25em;
+  max-width: 100%;
+}
+
+.recent-post-body{
+  padding-left: 11.2em;
+}
+
+.recent-post-title{
+  font-family: $font-stack;
+  font-weight: 400;
+  font-size: 1.1em;
+  line-height: 1.45;
+  text-transform: none;
+  letter-spacing: 0;
+  margin:0;
+  position: relative;
+}
+
+.recent-post-time{
+  font-size: 0.88em;
+  color:#b4b4b4;
+  margin-top: 0.9em;
+}

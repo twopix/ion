@@ -1,0 +1,171 @@
+
+/* ------------------------------------------------------------------------------- */
+/*  4. About
+/* ------------------------------------------------------------------------------- */
+
+
+
+.bg-about{
+  background: url(../img/bg/about.jpg) 50% 0 no-repeat;
+  background-size: cover;
+}
+
+.entry-title{
+  font-size: 3.6em;
+  margin:0 0 1em;
+}
+
+.entry-text{
+  font-size: 1.6em;
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+.about .fade-title-left{
+  top:1em;
+}
+
+.col-about-title{
+  margin-top: 0;
+  margin-bottom:1.1em; 
+}
+
+.col-about-info p:last-child{
+  margin-bottom: 0; 
+}
+
+.col-about-img{
+  position: relative;
+}
+
+.col-about-img img{
+  display: block;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+
+
+/* 4.1 Services */
+
+
+
+.row-services{
+  margin-left: -4.1em;
+  margin-right: -4.1em;
+}
+
+.col-service{
+  padding: 0 4.1em;
+}
+
+.service-item{
+  margin-bottom:2em; 
+}
+
+.service-item:last-child{
+  margin-bottom: 0;
+}
+
+.service-item h4{
+  margin-top: 0.8em;
+  margin-bottom: 1.1em;
+}
+
+.services .service-item h4{
+  margin-top: 1.25em;
+}
+
+.service-item p:last-child{
+  margin-bottom: 0;
+}
+
+
+/* 4.2 Object Map */
+
+
+
+.objects{
+  position: relative;
+}
+
+.object-label{
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  background-color: #e5bf93;
+  box-shadow:0  0  70px 8px rgba(197,164,126,0.75);
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.object-label:hover{
+  box-shadow:none;
+}
+
+.popover.top{
+  margin-top: -20px;
+}
+
+.object-info{
+  position: absolute;
+  display: none;
+  z-index: 1;
+  left: 50%;
+  bottom: 40px;
+  width: 12.4em;
+  margin-left: -6.2em;
+  padding: 1.1em 1.3em 3em;
+  border:0;
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 4px;
+  -webkit-box-shadow: none;
+  box-shadow:none;
+}
+
+.object-info.in{
+  display: block;
+}
+
+.object-info:before{
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -16px;
+  width: 0;
+  height: 0;
+  border: 16px solid transparent;
+  border-top: 14px solid rgba(0,0,0,0.3);
+}
+
+.object-title{
+  font-size: 1em;
+  font-family: 'Source Sans Pro';
+  font-weight: 200;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color:$primary-color;
+  padding: 0 0 1em;
+  border-bottom:1px solid rgba(249,249,249,0.2);
+  margin: 0 0 .5em;
+}
+
+.object-content{
+  font-family: $font-stack;
+  font-size: 0.75em;
+  line-height: 2.6;
+  color: #fff;
+  padding: 0;
+}
+
+.popover.top>.arrow{
+  border-top-color: transparent;
+}
+
+.popover.top>.arrow:after{
+  border-top-color:rgba(0,0,0,0.6);
+}
+

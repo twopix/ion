@@ -1,0 +1,172 @@
+/* ------------------------------------------------------------------------------- */
+/*  9. Contacts
+/* ------------------------------------------------------------------------------- */
+
+
+
+.bg-contacts{
+  background: url(../img/map.png) 50% 0 no-repeat;
+  background-size: cover;
+}
+
+.contacts .fade-title-right{
+  left: 90%;
+}
+
+.row-field{
+  margin-left: -5px;
+  margin-right:-5px;
+}
+
+.col-field{
+  padding: 0 5px;
+}
+
+.col-message{
+  display: none;
+  margin-top: 20px;
+}
+
+.col-address{
+  font-size: 1.125em;
+  line-height: 2.1;
+  margin-top: 2em;
+}
+
+.form-submit{
+  margin-top: 1.2em;
+}
+
+.success-message{
+  display: none;
+}
+
+.error-message{
+  display: none;
+}
+
+.success-message .fa{
+  margin-right: 7px;
+  font-size: 1.5em;
+}
+
+.contact-details{
+  position: relative;
+  overflow: hidden;
+  margin-top: -1px;
+}
+
+.col-map{
+  height: 35em;
+}
+
+.gmap{
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  height: 100%;
+}
+.gm-style .gm-style-iw {
+  background: #172126 !important;
+}
+
+.map-info{
+  padding: 1.2em;
+}
+.map-title{
+  margin-bottom: 2em;
+}
+
+.map-title h3{
+  margin:0;
+}
+
+.map-address-row{
+  margin-top: 1em;
+}
+
+.map-address-row .fa{
+  float: left;
+  margin: 0.35em 0.6em 0 0;
+  width: 1.1em;
+  text-align: center;
+  color: $primary-color;
+  font-size: 1.2em;
+}
+
+.map-address-row  .text{
+  display: block;
+  overflow: hidden;
+  font-size: 1.15em;
+}
+
+.contact-info{
+  color:#fff;
+  padding:0;
+  background:url(../img/bg/contact-details.jpg) 50% no-repeat;
+  background-size: cover;
+}
+
+.contact-info-content{
+  padding: 5.5em 5.6em;
+  background-color:rgba(197,164,125, 0.95);
+}
+
+.contact-info-title{
+  font-family: $font-stack;
+  font-size: 80px;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color:#fff;
+  opacity: 0.1;
+  position: absolute;
+  top:100%;
+  left: 100%;
+  margin-top: -0.5em;
+  margin-left: -2.3em;
+  -webkit-transform:rotate(-90deg);
+  transform:rotate(-90deg);
+   -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+.contact-row{
+  position: relative;
+  z-index: 1;
+  margin-bottom: 2.3em;
+}
+
+.contact-row:last-child{
+  margin-bottom: 0;
+}
+
+.contact-row h4{
+  margin:0 0 0.8em;
+  color:#fff;
+}
+
+.contact-row .fa{
+  float: left;
+  width: 1.1em;
+  margin-top: -0.15em;
+  padding: 1px;
+  text-align: center;
+  font-size: 1.3em;
+  line-height: 1.25;
+}
+
+.contact-body{
+  padding-left: 2.6em;
+}
+
+.contact-content{
+  font-size: 1.3em;
+}
+
+.phone-row{
+  font-size: 1.3em;
+  letter-spacing: 0.2em;
+  margin-top: 0.5em;
+}

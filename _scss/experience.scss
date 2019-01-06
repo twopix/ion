@@ -1,0 +1,33 @@
+.experience{
+  text-align: center;
+}
+
+.text-parallax {
+  background: no-repeat 0 0;
+  display: inline-block;
+}
+
+.text-parallax-content{
+  font-family: $font-stack;
+  font-weight: 700;
+  font-size: 21.8em;
+  line-height: 1;
+  overflow: hidden;
+  margin-bottom: 0;
+  background: #272727;
+  color:#fff;
+  mix-blend-mode: darken;
+  -ms-mix-blend-mode:darken;
+}
+
+.experience-info{
+  position: relative;
+  top: -0.75em;
+  font-family: $font-stack;
+  font-size: 1.5625em;
+  line-height: 1.45;
+  letter-spacing: 0.06em;
+  display: inline-block;
+  text-align: left;
+  margin:0 0 0 0.5em;
+}

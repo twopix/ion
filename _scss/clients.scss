@@ -1,0 +1,32 @@
+/* ------------------------------------------------------------------------------- */
+/*  7. Clients
+/* ------------------------------------------------------------------------------- */
+
+
+
+.clients{
+  text-align: center;
+}
+
+.clients-list{
+  margin:-3.8em -1.95em 0;
+}
+
+.clients-list .client{
+  display: inline-block;
+  vertical-align: middle;
+  padding: 3.8em 1.95em 0;
+  margin:0;
+}
+
+.clients-list .client img{
+  opacity: 0.3;
+  display: block;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.clients-list .client a:hover img{
+  opacity: 1;
+}

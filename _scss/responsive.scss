@@ -1,0 +1,269 @@
+
+/* ------------------------------------------------------------------------------- */
+/*  11. Responsive styles
+/* ------------------------------------------------------------------------------- */
+
+
+
+/* 11.1 Min width 768px */
+
+
+
+@media (min-width: 768px){
+
+
+
+  html{
+    font-size: 85%;
+  }
+
+
+
+  /* Slider */
+
+
+
+  .arrow-left{
+    top: 43.5vmin;
+    bottom: auto;
+  }
+
+  .arrow-right{
+    left: 28vmin;
+    right: auto;
+    margin-left: 5em;
+    top: 43.5vmin;
+    bottom: auto;
+  }
+
+
+
+  /* About */
+
+
+
+  .entry{
+    padding: 0 7.5em;
+  }
+
+  .col-about-spec{
+    padding: 0 4.4em;
+  }
+
+
+
+  /* Project Carousel */
+
+
+
+  .owl-prev{
+    left: 3.6em
+  }
+
+  .owl-next{
+    right:3.6em;
+  }
+
+
+
+  /* Projects Deatails */
+
+
+
+  .project-details{
+    margin-top: 7.1em;
+  }
+
+
+  .project-details-item{
+    margin-bottom: 7.1em;
+  }
+
+ .project-details-info{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top:13%;
+    bottom: 13%;
+    width: 55%;
+  }
+
+  .project-details-item:nth-child(odd) .project-details-img{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .project-details-item:nth-child(even) .project-details-img{
+    padding-right:15px;
+    padding-left: 15px;
+  }
+
+}
+
+
+
+/* 11.2 Min width 992px */
+
+
+
+@media (min-width: 992px){
+
+
+
+  html{
+    font-size: 92%;
+  }
+
+
+
+  /* Content styles */
+
+
+
+  .text-center-md{
+    text-align: center;
+  }
+
+  .text-right-md{
+    text-align: right;
+  }
+
+  .text-left-md{
+    text-align: left;
+  }
+
+
+
+  /* Navbar Mobile */
+
+
+  .navbar-mobile{
+    position: absolute;
+    left: -50000px;
+    top: -50000px;
+  }
+
+
+
+  /* About */
+
+
+
+  .col-about-img{
+    padding-left: 0;
+    left: -5px;
+  }
+
+  .col-about-img img{
+    max-width: calc(100% + 5px);
+  }
+
+
+
+  /* Project Details */
+
+
+
+  .project-details-item:nth-child(odd) .project-details-img{
+    padding-left: 5px;
+    padding-right: 15px;
+  }
+
+  .project-details-item:nth-child(even) .project-details-img{
+    padding-right:5px;
+    padding-left: 15px;
+  }
+
+
+
+  /* Blog Details */
+
+
+  
+  .col-primary{
+    padding-right: 2.2em;
+  }
+
+  .col-secondary{
+    margin-top: 10.62em;
+    margin-left: -5px;
+    padding:0 10px 0 0;
+  }
+
+
+
+  /* Contacts */
+
+
+  .row-field{
+    margin-left: -15px;
+  }
+
+  .col-map{
+    position:static;
+    height: 100%;
+  }
+}
+
+
+/* 11.3 Min width 1200px */
+
+
+
+@media (min-width: 1200px){
+
+
+   html{
+    font-size: 100%;
+  }
+
+
+
+   /* Header */
+
+
+
+  .main-header{
+    padding-left: 0;
+  }
+
+
+
+  /* Project Details */
+
+
+  .project-details-info{
+    width: 44%;
+  }
+
+}
+
+
+
+/* 11.4 Max height 480px  */
+
+
+
+  @media (max-height: 480px){
+
+
+
+  /* Slider */
+
+
+
+  .arrow-left{
+    top: 43.5vmin;
+    bottom: auto;
+  }
+
+  .arrow-right{
+    left: 28vmin;
+    right:auto;
+    margin-left: 5em;
+    top: 43.5vmin;
+    bottom: auto;
+  }
+}
+
+

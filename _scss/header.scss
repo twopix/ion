@@ -1,0 +1,466 @@
+
+
+/*-------------------------------------------------------------------------------
+  2. Header
+-------------------------------------------------------------------------------*/
+
+
+
+.header-inner .vertical-panel-content{
+/*  bottom:auto;
+  top:12.2vmin;*/
+}
+
+
+
+/* 2.1 Brand */
+
+
+
+.brand-panel{
+  position: absolute;
+  z-index: 4;
+  left: 0;
+  top:0;
+  width: 39.47vmin;
+  height: 40.7vmin;
+  padding: 4.8vmin 2em 4.8vmin;
+  background-color: #172126;
+  text-align: center;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.brand{
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size:4vmin;
+  line-height: 1;
+  color: #fff;
+}
+
+.brand:hover,
+.brand:focus{
+  color: #fff;
+  text-decoration: none;
+}
+
+.brand-name{
+  position: absolute;
+  z-index: -1;
+  bottom: -0.4em;
+  right:-0.38em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 8.75em;
+  line-height: 1;
+  opacity: 0.04;
+  color: #fff;
+}
+
+.slide-number{
+  font-family: $font-stack;
+  margin-top: 8vmin;
+}
+
+.slide-number .current-number{
+  font-size: 8vmin;
+  letter-spacing: 0.1em;
+  line-height: 1;
+}
+
+.slide-number sup{
+  display: inline-block;
+  position: relative;
+  top:-3px;
+  font-size: 2vmin;
+  letter-spacing: 0.1em;
+  color: #5e5e5e;
+  vertical-align: top;
+  margin-left: 0.46em;
+}
+
+.slide-number sup .delimiter{
+  display: inline-block;
+  margin-right: 0.4em;
+}
+
+.header-phone{
+  font-family: $font-stack;
+  font-weight: 300;
+  font-size: 0.81em;
+  letter-spacing: 0.32em;
+  position: absolute;
+  z-index: 3;
+  color: #fff;
+  left: 50vmin;
+  top:5.9vmin;
+}
+
+ @media (max-width: 480px){
+  .header-phone{
+    display: none;
+  }
+ }
+
+  @media (min-width: 992px) and (max-width: 1200px){
+  .header-phone{
+    display: none;
+  }
+ }
+
+
+
+/* 2.2 Vertical Panel */
+
+
+
+.vertical-panel,
+.vertical-panel-content{
+  position: absolute;
+  width: 19.735vmin;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.vertical-panel{
+  z-index: 3;
+  height: 10000px;
+  background-color: #172126;
+}
+
+.vertical-panel-content{
+  z-index: 4;
+}
+
+.vertical-panel-info{
+  margin-bottom: 3.5vmin;
+}
+
+.vertical-panel-info .line{
+  height: 5vmin;
+  width: 1px;
+  margin:15px auto 0;
+  background-color:#646464;
+}
+
+.vertical-panel-title{
+  font-family: 'Source Sans Pro';
+  font-size: 10px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: 1em;
+  color: #fff;
+  position: relative;
+  left: -6px;
+  margin:0 auto;
+  width: 1px;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+   -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+@media (max-height: 850px){
+  .vertical-panel-title{
+    display: none;
+  }
+}
+
+.social-list{
+  margin-bottom: 3.5vmin;
+}
+
+.social-list li{
+  margin-top: 3.8vmin;
+}
+
+.social-list .fa{
+  font-size: 2.4vmin;
+  color: #606060;
+}
+
+.social-list .fa:hover{
+  color:$primary-color;
+  text-decoration: none;
+}
+
+
+
+/* 2.3 Navbar Desctop */
+
+
+
+.navbar-desctop{
+  display: none;
+  position: absolute;
+  z-index: 2;
+  top:0;
+  left:0;
+  width: 100%;
+  padding:5.9vmin 0 0;
+  background: rgba(23, 33, 38, 0.74);
+}
+
+.navbar-desctop .brand{
+  display: none;
+  position: relative;
+  top:-0.22em;
+  font-size: 1.6em;
+}
+
+.navbar-desctop-menu{
+  float: right;
+  font-family: $font-stack;
+  font-weight: 300;
+  font-size: 0.81em;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.navbar-desctop-menu li{
+  position: relative;
+  -webkit-perspective: 2000px;
+  perspective: 2000px;
+}
+
+.navbar-desctop-menu li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-desctop-menu li a:hover,
+.navbar-desctop-menu .active > a{
+  color:  $primary-color;
+}
+
+.navbar-desctop-menu  > li{
+  float: left;
+  margin-left: 5.1em;
+}
+
+.navbar-desctop-menu > li > a{
+  color: #fff;
+  background-color: transparent;
+  margin-bottom: 1.5em;
+}
+
+.navbar-desctop-menu li ul{
+  position: absolute;
+  z-index: 10;
+  left: 100%;
+  top:60%;
+  visibility: hidden;
+  min-width: 200px;
+  opacity: 0;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+  background:rgba(23, 33, 38, 0.95);
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.navbar-desctop-menu > li > ul{
+  left: -20px;
+  margin-top: 0;
+}
+
+.navbar-desctop-menu li:hover > ul{
+  top:0;
+  visibility: visible;
+  opacity: 1;
+}
+
+.navbar-desctop-menu > li:hover > ul{
+  top:100%;
+}
+
+.navbar-desctop-menu li li{
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.navbar-desctop-menu li li:last-child{
+  border-bottom: 0;
+}
+
+.navbar-desctop-menu li li a{
+  color: #fff;
+  padding: 12px 20px 10px;
+}
+
+
+
+/* 2.4 Navbar Desctop Affix */
+
+
+
+.navbar-desctop.affix{
+  position: fixed;
+  z-index: 5;
+  top:0;
+  background-color:rgba(23, 33, 38, 0.95);
+  padding:1.3em 0 0;
+  box-shadow: 0 0 35px rgba(0,0,0,0.1);
+}
+
+.navbar-desctop.affix.affix-top{
+  padding-top:2.2em;
+}
+
+.navbar-desctop.affix .brand{
+  display: inline-block;
+}
+
+.navbar-desctop.affix .navbar-desctop-menu li a{
+  color: #fff;
+}
+
+.navbar-desctop.affix .navbar-desctop-menu li > a:hover,
+.navbar-desctop.affix .navbar-desctop-menu .active > a{
+  color:$primary-color;
+}
+
+
+
+/* 2.5 Navbar Mobile */
+
+
+
+.navbar-mobile{
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top:0;
+  width: 100%;
+  padding:6vmin 0;
+}
+
+.navbar-mobile .brand{
+  display: none;
+  margin-left: 15px;
+  font-size: 1.6em;
+}
+
+.navbar-collapse{
+  border:0;
+  background-color: rgba(23, 33, 38, 0.95);
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+
+@media (max-height: 320px ){
+  .navbar-collapse{
+    max-height: 240px;
+  }
+}
+
+.navbar-toggle{
+  padding: 0;
+  margin-top:0;
+  margin-bottom: 0;
+  border-radius: 0;
+  border:0;
+}
+
+.navbar-toggle .icon-bar{
+  background-color:#fff;
+  height: 2px;
+  width: 30px; 
+}
+
+.navbar-toggle .icon-bar + .icon-bar{
+  margin-top:5px;
+}
+
+.navbar-toggle.collapsed .icon-bar{
+  background-color: #fff;
+}
+
+.navbar-nav-mobile{
+  font-family: $font-stack;
+  font-weight: 300;
+  font-size: 0.9em;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  padding-top: 1.2em;
+  margin-bottom: 0;
+}
+
+.navbar-nav-mobile li{
+  position: relative;
+  border-top:1px solid rgba(255,255,255,0.1);
+}
+
+.navbar-nav-mobile li a{
+  display: block;
+  padding: 1em 1em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-nav-mobile > .current > a{
+  color: $primary-color;
+}
+
+.navbar-nav-mobile li a .fa-angle-down{
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navbar-nav-mobile > .current > a .fa-angle-down{
+  top:-0.2em;
+  left:-0.3em;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.navbar-nav-mobile > .active > a,
+.navbar-nav-mobile > .active > a:hover{
+  background-color: $primary-color;
+  color: #fff;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+.navbar-nav-mobile ul{
+  display: none;
+}
+
+.navbar-nav-mobile li a:hover,
+.navbar-nav-mobile li .active > a{
+  color: $primary-color;
+}
+
+
+
+/* 2.6 Navbar Mobile Affix */
+
+
+
+.navbar-mobile.affix{
+  position: fixed;
+  z-index: 5;
+  background-color:rgba(23, 33, 38, 0.95);
+  box-shadow: 0 0 35px rgba(0,0,0,0.1);
+  padding: 1.2em 0;
+}
+
+.navbar-mobile.affix .brand{
+  display: inline-block;
+}
+
+.navbar-mobile.affix .navbar-toggle .icon-bar{
+  background-color:$primary-color;
+}

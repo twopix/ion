@@ -1,8 +1,18 @@
+---
 layout: default
+---
 
 <!-- Layout -->
 <div class="layout">
-    {{ content }}
+    <!-- Home -->
+    <main class="main">
+        {% include {{page.main_block}} %}
+    </main>
+    <div class="content">
+        {{ content }}
+        {% include footer.html %}
+        {% include page-lines.html %}
+    </div>
 </div>
 <!-- SCRIPTS -->
 <script src="js/jquery.min.js"></script>
