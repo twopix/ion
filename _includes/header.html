@@ -53,28 +53,25 @@
     <nav class="navbar-desctop visible-md visible-lg">
         <div class="container">
             <a href="#top" class="brand js-target-scroll">
-                <img src="{{site.logo-small}}" class="img-responsive" alt="" width="130">
+                <img src="{{site.logo-small | relative_url }}" class="img-responsive" alt="" width="130">
             </a>
             <ul class="navbar-desctop-menu">
-                <li class="active">
-                    <a href="{{ site.baseurl }}/index.html">ICS</a>
-                </li>
-                <li>
-                    <a href="{{ site.baseurl }}/#!ourservices" class="js-target-scroll">Our services</a>
-                </li>
-                <li>
-                    <a href="{{ site.baseurl }}/projectslist.html">Projects</a>
-                    <ul>
-                        <li><a href="{{ site.baseurl }}/projectslist.html">Projects - List</a></li>
-                        <li><a href="{{ site.baseurl }}/project_panorama.html">Project in Panorama</a></li>
-                        <li><a href="{{ site.baseurl }}/project_sithonia.html">Project in Sithonia</a></li>
-                        <li><a href="{{ site.baseurl }}/project_nikiti.html">Project in Nikiti</a></li>
-                        <li><a href="{{ site.baseurl }}/project_paxos.html">Project in Paxos</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="{{ site.baseurl }}/contactus.html">Contact us</a>
-                </li>
+                {% for item in site.data.navigation %}
+                    {% assign url = page.url|remove:'index.html' %}
+                    {% assign hasFirst = item.first-level != undefined %}
+                    <li class="{% if url == item.link %} active {% endif %}">
+                        <a href="{{item.link}}">{{item.name}}</a>
+                        {% if hasFirst %}
+                            <ul>
+                            {% for firstlevel in item.first-level %}
+                                <li class="{% if page.url == firstlevel.link %} active {% endif %}">
+                                    <a href="{{firstlevel.link}}">{{firstlevel.name}}</a>
+                                </li>
+                            {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </li>
+                {% endfor %}
             </ul>
         </div>
     </nav>

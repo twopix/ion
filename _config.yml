@@ -37,7 +37,27 @@ address:
 # plugins: 
 #   - jekyll-paginate
 #   - jekyll-archives
-    
+
+collections:
+  projects:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: home
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
 # Assets
 # We specify the directory for Jekyll so we can use @imports.
 sass:

@@ -5,7 +5,7 @@ layout: default
 <!-- Layout -->
 <div class="layout">
     <!-- Home -->
-    <main class="main">
+    <main class="main {{page.main_classes}} " data-stellar-background-ratio="{{page.background-ratio}}">
         {% include {{page.main_block}} %}
     </main>
     <div class="content">
@@ -15,14 +15,15 @@ layout: default
     </div>
 </div>
 <!-- SCRIPTS -->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src={{"js/jquery.min.js" | relative_url }}></script>
+<script src={{"js/bootstrap.min.js" | relative_url }}></script>
 <!-- <script src="js/smoothscroll.js"></script> -->
-<script src="js/jquery.validate.min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/jquery.stellar.min.js"></script>
-<script src="js/jquery.magnific-popup.js"></script>
-<script src="js/owl.carousel.min.js"></script>
+<script src={{"js/jquery.validate.min.js" | relative_url}}></script>
+<script src={{"js/wow.min.js" | relative_url}}></script>
+<script src={{"js/jquery.stellar.min.js" | relative_url}}></script>
+<script src={{"js/jquery.magnific-popup.js" | relative_url}}></script>
+<script src={{"js/owl.carousel.min.js" | relative_url}}></script>
+{% if page.url == "/" %}
 <!-- SLIDER REVOLUTION -->
 <script src="js/rev-slider/jquery.themepunch.tools.min.js"></script>
 <script src="js/rev-slider/jquery.themepunch.revolution.min.js"></script>
@@ -36,4 +37,5 @@ layout: default
 <script src="js/rev-slider/revolution.extension.parallax.min.js"></script>
 <script src="js/rev-slider/revolution.extension.slideanims.min.js"></script>
 <script src="js/rev-slider/revolution.extension.video.min.js"></script>
-<script src="js/interface.js"></script>
+{% endif %}
+<script src={{"js/interface.js" | relative_url}}></script>
