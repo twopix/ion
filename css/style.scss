@@ -1,11 +1,19 @@
 ---
 ---
 
-$font-stack:    'Source Sans Pro', sans-serif;
+$font-stack: 'Source Sans Pro', sans-serif;
 $primary-color: #a69373;
 
 @import "_bootstrap";
-
+@import "font-awesome.min";
+@import "animate";
+@import "hover";
+@import "magnific-popup";
+@import "owl.carousel";
+@import "owl.transitions";
+@import "settings";
+@import "layers";
+@import "navigation";
 // Imports
 @import "general";
 @import "header";
