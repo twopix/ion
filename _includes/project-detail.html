@@ -1,0 +1,17 @@
+<section class="project-details">
+  <div class="container">
+  {% for detail in page.projectDetail %}
+    <div class="project-details-item">
+      <div class="row">
+        <div class="project-details-info wow {{ detail.fadein }}">
+          <h3 class="project-details-title">{{ detail.title }} </h3>
+          <p class="project-details-descr">{{ detail.description }}</p>
+        </div>
+        <div class="project-details-img col-md-8 {{ detail.offset }}">
+          <img alt="" class="img-responsive" src="{{ detail.img | relative_url }}">
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+</section>

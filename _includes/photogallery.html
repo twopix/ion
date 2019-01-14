@@ -1,0 +1,23 @@
+<section class="projects section">
+    <div class="container">
+        <h2 class="section-title"> <span class="text-primary">{{page.galleryTitle}}</span></h2>
+    </div>
+    <div class="section-content">
+        <div class="projects-carousel js-projects-carousel js-projects-gallery">
+            {% for image in page.gallery %}
+            <div class="project project-light">
+                <a href="{{image.largeImg |relative_url }}" title="{{image.title}}">
+                    <figure>
+                        <img alt="" src="{{image.Img |relative_url }}">
+                        <figcaption>
+                            <h3 class="project-title"></h3>
+                            <h4 class="project-category"></h4>
+                            <div class="project-zoom"></div>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

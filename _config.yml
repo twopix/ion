@@ -47,6 +47,7 @@ defaults:
       path: ""
       type: "projects"
     values:
+      is_project: true
       layout: home
   - scope:
       path: ""

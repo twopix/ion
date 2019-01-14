@@ -10,6 +10,12 @@ layout: default
     </main>
     <div class="content">
         {{ content }}
+        {% if page.is_project %}
+            <!-- project detail -->
+            {% include project-detail.html %}
+            <!-- Photogallery -->
+            {% include  photogallery.html %}
+        {% endif %}
         {% include footer.html %}
         {% include page-lines.html %}
     </div>

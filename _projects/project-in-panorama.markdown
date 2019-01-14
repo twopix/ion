@@ -23,22 +23,23 @@ projectDetail:
    description: ''
    offset: col-md-offset-4
    img: img/projects/panorama/panorama_0554.jpg
-   
+galleryTitle: Photogallery 
+gallery:
+  - title: Panorama villa
+    largeImg: img/projects/panorama/panorama_0583.jpg
+    Img: img/projects/panorama/panorama_0583_sm.jpg
+  - title: Panorama villa
+    largeImg: img/projects/panorama/panorama_0584.jpg
+    Img: img/projects/panorama/panorama_0584_sm.jpg
+  - title: Panorama villa
+    largeImg: img/projects/panorama/panorama_0604.jpg
+    Img: img/projects/panorama/panorama_0604_sm.jpg
+  - title: Panorama villa
+    largeImg: img/projects/panorama/panorama_0551.jpg
+    Img: img/projects/panorama/panorama_0551_sm.jpg
+  - title: Panorama villa
+    largeImg: img/projects/panorama/panorama_0554.jpg
+    Img: img/projects/panorama/panorama_0554_sm.jpg
+    
+
 ---
-<section class="project-details">
-  <div class="container">
-  {% for detail in page.projectDetail %}
-    <div class="project-details-item">
-      <div class="row">
-        <div class="project-details-info wow {{ detail.fadein }}">
-          <h3 class="project-details-title">{{ detail.title }} </h3>
-          <p class="project-details-descr">{{ detail.description }}</p>
-        </div>
-        <div class="project-details-img col-md-8 {{ detail.offset }}">
-          <img alt="" class="img-responsive" src="{{ detail.img | relative_url }}">
-        </div>
-      </div>
-    </div>
-  {% endfor %}
-  </div>
-</section>
