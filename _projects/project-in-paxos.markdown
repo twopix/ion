@@ -1,33 +1,36 @@
 ---
-title: Project in Sithonia<br> Chalkidiki
+title: Project <br>in Paxos<br> Ionian sea
 main_block: 'main-top.html'
 main_classes: 'main-inner main-projects bg-projects'
 background-ratio: '0.6'
-place: Sithonia
-type: Country cottage
-thumbnail: img/projects/Villa in Castri, Sithonia, Chalkidiki-vertical.jpg
-mainStyle: "background-image:url('../img/slider/sithonia.jpg');"
+place: Paxos, Ionian sea
+type: Country house
+thumbnail: img/projects/paxoi-ionio.jpg
+mainStyle: "background-image:url('../img/slider/paxoi.jpg');"
 projectDetail:
  - fadein: fadeInLeft
-   title: A country cottage, built on a seaside sloping plot, which was appointed and bought by our company
+   title: A country family house in the picturesque island of Paxos, built with traditional goods
    description: ''
    offset: col-md-offset-4
-   img: img/projects/sithonia/sithonia_2528.jpg
+   img: img/projects/paxoi/IONIO_20171112_01.jpg
  - fadein: fadeInRight
-   title: The architect of the house is Dimitris Tsitsos.
+   title: The on-going construction will be finished in spring 2019 and is respectfully coordinated with the island's architecture
    description: ''
    offset: ''
-   img: img/projects/sithonia/sithonia_2587.jpg
+   img: img/projects/paxoi/IONIO_20171112_04.jpg
  - fadein: fadeInLeft
-   title: The entire construction was carried out with particular respect to the environment and the choice of materials aimed at combining it naturally with the environment
+   title: The photo-realistic shots worthily depict our plans for this particular project and will proudly justify our vision once again soon.
    description: ''
    offset: col-md-offset-4
-   img: img/projects/sithonia/sithonia_2526.jpg
+   img: img/projects/paxoi/paxos_c03.jpg
+
+timelapse:
  - fadein: fadeInRight
-   title: Specifically, we used stone from a mine in Epirus which matched the characteristics of the era, chestnut wood and mixed techniques on walls, that create curved surfaces instead of straight ones.
+   title: The on-going construction will be finished in spring 2019 and is respectfully coordinated with the island's architecture
    description: ''
-   offset: ''
-   img: img/projects/sithonia/sithonia_1058.jpg
+   offset: 
+   youtube: https://www.youtube.com/embed/8hQTycK-2XU
+
 
 galleryTitle: Photogallery 
 gallery:

@@ -1,5 +1,5 @@
 ---
-title: Project in Panorama, Thessaloniki
+title: Project in Panorama<br>Thessaloniki
 main_block: 'main-top.html'
 main_classes: 'main-inner main-projects bg-projects'
 background-ratio: '0.6'
