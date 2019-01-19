@@ -89,25 +89,22 @@
         </button>
         <div class="collapse navbar-collapse" id="navbar-mobile">
             <ul class="navbar-nav-mobile">
-                <li class="active">
-                    <a href="#">ICS <i class="fa fa-angle-down"></i></a>
-                </li>
-                <li>
-                    <a href="{{ site.baseurl }}/#!ourservices" class="js-target-scroll">Our services</a>
-                </li>
-                <li>
-                    <a href="#">Projects <i class="fa fa-angle-down"></i></a>
+             {% for item in site.data.navigation %}
+                {% assign url = page.url|remove:'index.html' %}
+                {% assign hasFirst = item.first-level != undefined %}
+                <li class="{% if url == item.link %} active {% endif %}">
+                    <a href="{{item.link}}">{{item.name}} <i class="{% if hasFirst %} fa fa-angle-down {% endif %}"></i></a>
+                    {% if hasFirst %}
                     <ul>
-                        <li><a href="{{ site.baseurl }}/projectslist.html">Projects - List</a></li>
-                        <li><a href="{{ site.baseurl }}/project_panorama.html">Project in Panorama</a></li>
-                        <li><a href="{{ site.baseurl }}/project_sithonia.html">Project in Sithonia</a></li>
-                        <li><a href="{{ site.baseurl }}/project_nikiti.html">Project in Nikiti</a></li>
-                        <li><a href="{{ site.baseurl }}/project_paxos.html">Project in Paxos</a></li>
+                        {% for firstlevel in item.first-level %}
+                        <li class="{% if page.url == firstlevel.link %} active {% endif %}">
+                            <a href="{{firstlevel.link}}">{{firstlevel.name}}</a>
+                        </li>
+                        {% endfor %}
                     </ul>
+                    {% endif %}
                 </li>
-                <li>
-                    <a href="{{ site.baseurl }}/contactus.html">Contact us</a>
-                </li>
+             {% endfor %}
             </ul>
         </div>
     </nav>

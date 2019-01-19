@@ -3,17 +3,17 @@
 - name: "Our services"
   link: "/index.html#!ourservices" 
 - name: Projects
-  link: "/projectslist.html"
+  link: "#"
   first-level:
     - name: Projects - List
       link: "/projectslist.html"
     - name: Project in Panorama
-      link: "/project_panorama.html"
+      link: "/projects/project-in-panorama.html"
     - name: Project in Sithonia
-      link: "/project_sithonia.html"
+      link: "/projects/project-in-sithonia.html"
     - name: Project in Nikiti
-      link: "/project_nikiti.html"
+      link: "/projects/project-in-nikiti.html"
     - name: Project in Paxos
-      link: "/project_paxos.html"
+      link: "/projects/project-in-paxos.html"
 - name: Contact us
   link: "/contactus.html"
