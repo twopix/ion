@@ -31,32 +31,32 @@ projectDetail:
 galleryTitle: Photogallery 
 gallery:
   - title: Palia Nikiti
-    largeImg: projects/palia nikiti/palia-nikiti-19.jpg
-    Img: projects/palia nikiti/palia-nikiti-19-sm.jpg
+    largeImg: img/projects/palia nikiti/palia-nikiti-19.jpg
+    Img: img/projects/palia nikiti/palia-nikiti-19-sm.jpg
   - title: Palia Nikiti
-    largeImg: projects/palia nikiti/palia-nikiti-25.jpg
-    Img: projects/palia nikiti/palia-nikiti-25-sm.jpg
+    largeImg: img/projects/palia nikiti/palia-nikiti-25.jpg
+    Img: img/projects/palia nikiti/palia-nikiti-25-sm.jpg
   - title: Palia Nikiti
-    largeImg: projects/palia nikiti/palia-nikiti-37.jpg
-    Img: projects/palia nikiti/palia-nikiti-37-sm.jpg
+    largeImg: img/projects/palia nikiti/palia-nikiti-37.jpg
+    Img: img/projects/palia nikiti/palia-nikiti-37-sm.jpg
   - title: Palia Nikiti
-    largeImg: projects/palia nikiti/palia-nikiti-38.jpg
-    Img: projects/palia nikiti/palia-nikiti-38-sm.jpg
+    largeImg: img/projects/palia nikiti/palia-nikiti-38.jpg
+    Img: img/projects/palia nikiti/palia-nikiti-38-sm.jpg
   - title: Palia Nikiti
-    largeImg: projects/palia nikiti/palia-nikiti-57.jpg
-    Img: projects/palia nikiti/palia-nikiti-57-sm.jpg
+    largeImg: img/projects/palia nikiti/palia-nikiti-57.jpg
+    Img: img/projects/palia nikiti/palia-nikiti-57-sm.jpg
   - title: Palia Nikiti
-    largeImg: projects/palia nikiti/palia-nikiti-65.jpg
-    Img: projects/palia nikiti/palia-nikiti-65-sm.jpg
+    largeImg: img/projects/palia nikiti/palia-nikiti-65.jpg
+    Img: img/projects/palia nikiti/palia-nikiti-65-sm.jpg
   - title: Palia Nikiti
-    largeImg: projects/palia nikiti/palia-nikiti-85.jpg
-    Img: projects/palia nikiti/palia-nikiti-85-sm.jpg
+    largeImg: img/projects/palia nikiti/palia-nikiti-85.jpg
+    Img: img/projects/palia nikiti/palia-nikiti-85-sm.jpg
   - title: Palia Nikiti
-    largeImg: projects/palia nikiti/palia-nikiti-92.jpg
-    Img: projects/palia nikiti/palia-nikiti-92-sm.jpg
+    largeImg: img/projects/palia nikiti/palia-nikiti-92.jpg
+    Img: img/projects/palia nikiti/palia-nikiti-92-sm.jpg
   - title: Palia Nikiti
-    largeImg: projects/palia nikiti/palia-nikiti-94.jpg
-    Img: projects/palia nikiti/palia-nikiti-94-sm.jpg
+    largeImg: img/projects/palia nikiti/palia-nikiti-94.jpg
+    Img: img/projects/palia nikiti/palia-nikiti-94-sm.jpg
     
 
 ---

@@ -1,18 +1,23 @@
-<section class="project-details">
+{% if page.timelapse %}
+<section class="project-details"> 
   <div class="container">
+    <h2 class="section-title"> <span class="text-primary">Timelapse video</span></h2>
+  </div>
   {% for detail in page.timelapse %}
-    <div class="project-details-item">
+  <div class="section-content project-details-item">
+    <div class="container">
       <div class="row">
-        <div class="project-details-info wow {{ detail.fadein }}">
-          <h3 class="project-details-title">{{ detail.title }} </h3>
-          <p class="project-details-descr">{{ detail.description }}</p>
+        <div class="project-details-info wow  {{ detail.fadein }}">
+          <h3 class="project-details-title"> {{ detail.title }} </h3>
+          <p class="project-details-descr"> {{ detail.description }} </p>
         </div>
-        <div class="project-details-img col-md-8 {{ detail.offset }}">
-        <iframe width="800" height="400" src="{{youtube}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>        
+        <div class="project-details-img col-md-8">
+          <iframe width="800" height="400" src="{{ detail.youtube }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
         </div>
       </div>
     </div>
-  {% endfor %}
   </div>
+  {% endfor %}
 </section>
+{% endif %}
