@@ -6,7 +6,7 @@ background-ratio: '0.6'
 place: Panorama
 type: Villa
 thumbnail: img/projects/Villa in Panorama,Thessaloniki-vertical.jpg
-mainStyle: "background-image:url('../img/slider/Villa in Panorama,Thessaloníki.jpeg');"
+mainStyle: "background-image:url('../img/slider/panorama.jpg');"
 projectDetail:
  - fadein: fadeInLeft
    title: A private villa originally constructed by Fatouro in 1964, which we built respecting the historicity of the building
@@ -19,10 +19,10 @@ projectDetail:
    offset: ''
    img: img/projects/panorama/panorama_0552.jpg
  - fadein: fadeInLeft
-   title: the alteration of the environmental configuration along with the prosthesis of a pool
+   title: We also performed alterations of the environmental configuration along with the prosthesis of a pool
    description: ''
    offset: col-md-offset-4
-   img: img/projects/panorama/panorama_0554.jpg
+   img: img/projects/panorama/panorama_0583.jpg
 galleryTitle: Photogallery 
 gallery:
   - title: Panorama villa

@@ -26,7 +26,7 @@ projectDetail:
 
 timelapse:
  - fadein: fadeInRight
-   title: The on-going construction will be finished in spring 2019 and is respectfully coordinated with the island's architecture
+   title: Watch the timelapse video of the on-going construction. Enjoy!
    description: ''
    offset: 
    youtube: https://www.youtube.com/embed/8hQTycK-2XU
