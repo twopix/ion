@@ -5,7 +5,7 @@ main_classes: 'main-inner main-projects bg-projects'
 background-ratio: '0.6'
 place: Nikiti
 type: Villa
-thumbnail: img/projects/Villa in Panorama,Thessaloniki-vertical.jpg
+thumbnail: img/projects/Traditional house in old village of Nikiti-vertical .jpeg
 mainStyle: "background-image:url('../img/slider/nikiti.jpg');"
 projectDetail:
  - fadein: fadeInLeft

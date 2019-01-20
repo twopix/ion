@@ -5,7 +5,7 @@ main_classes: 'main-inner main-projects bg-projects'
 background-ratio: '0.6'
 place: Panorama
 type: Villa
-thumbnail: img/projects/Villa in Panorama,Thessaloniki-vertical.jpg
+thumbnail: 'img/projects/Villa in Panorama,Thessaloniki-vertical.jpg'
 mainStyle: "background-image:url('../img/slider/panorama.jpg');"
 projectDetail:
  - fadein: fadeInLeft

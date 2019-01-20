@@ -17,10 +17,12 @@
             <img src="{{ site.baserurl }}/{{site.logo}} " alt="{{site.name}}" class="img-responsive" alt="" width="200">
         </a>
         <div class="brand-name">{{site.name}}</div>
+        {% if page.main_block=='slider.html'%}
         <div class="slide-number">
             <span class="current-number text-primary">0<span class="count">1</span></span>
             <sup><span class="delimiter">/</span> 0<span class="total-count"></span></sup>
         </div>
+        {% endif %}
     </div>
     <div class="header-phone">{{site.phone}}</div>
     <div class="vertical-panel"></div>
@@ -65,7 +67,7 @@
     <!-- Navigation Mobile -->
     <nav class="navbar-mobile">
         <a href="#top" class="brand js-target-scroll">
-            <img src="{{site.logo-small}}" class="img-responsive" alt="" width="200">
+            <img src="{{site.logo-small | relative_url }}" class="img-responsive" alt="" width="200">
         </a>
         <!-- Navbar Collapse -->
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-mobile">

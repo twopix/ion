@@ -5,7 +5,7 @@ main_classes: 'main-inner main-projects bg-projects'
 background-ratio: '0.6'
 place: Sithonia
 type: Country cottage
-thumbnail: img/projects/Villa in Castri, Sithonia, Chalkidiki-vertical.jpg
+thumbnail: img/projects/Villa in Castri, Sithonia, Chalkidiki-vertical.jpeg
 mainStyle: "background-image:url('../img/slider/sithonia.jpg');"
 projectDetail:
  - fadein: fadeInLeft
