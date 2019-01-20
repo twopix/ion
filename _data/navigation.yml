@@ -1,9 +1,9 @@
 - name: ICS
   link: /index.html
 - name: "Our services"
-  link: "/index.html#!ourservices" 
+  link: "/#!ourservices" 
 - name: Projects
-  link: "#"
+  link: "#!"
   first-level:
     - name: Projects - List
       link: "/projectslist.html"
