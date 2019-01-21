@@ -340,7 +340,7 @@
 			    submitHandler: function(form){
 		        	$.ajax({
 			            type: "POST",
-			            url:"mail.php",
+								url:"https://formspree.io/melidis@gmail.com",
 			            data: $(form).serialize(),
 			            success: function() {
 		                	$('.col-message, .success-message').show();
